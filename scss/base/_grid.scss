@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    /* defina filas */
+    grid-template-rows:repeat(2,100px);
+    grid-template-columns: repeat(2,2fr);
+    border:2px solid black;
+    /* espacio entre las celdas */
+    gap: 20px;
+}
